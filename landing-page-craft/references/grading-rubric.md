@@ -28,11 +28,16 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 - [ ] Not a repeat of a signature move already used elsewhere on this page, or on the last logged build — evidence:
 
 **Two-column sections**
-- [ ] Every non-text side is genuinely alive, not a flat image or static decoration — evidence:
+- [ ] Every non-text side is genuinely alive — an animated mini-interface, screen snippet, or self-contained concept, not a flat image or static decoration — evidence:
 
 **Cards and containers**
 - [ ] No default plain bordered-card grid where a divider or more considered container would serve better — evidence:
-- [ ] Every card-like container that is used has a real hover interaction — evidence:
+- [ ] The whole page uses cards in at most one or two sections, not as the default container everywhere — evidence:
+- [ ] Every card that is used has a customization touch (glossy gradient fill, glass-like border, animated icon) AND a real hover interaction — evidence:
+
+**Icons**
+- [ ] All icons come from one chosen custom library (Lucide/Phosphor/Heroicons/Tabler), consistent throughout — evidence:
+- [ ] No emojis used where an icon belongs — evidence:
 
 **Motion**
 - [ ] Every section has some animation or interaction, including body copy animating in, not just appearing — evidence:

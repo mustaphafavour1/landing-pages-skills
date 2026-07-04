@@ -6,6 +6,10 @@ A checklist of patterns confirmed across multiple past builds (Allowance, didii,
 
 Every one of the five projects has a compact grid (2x3 or similar) of icon plus short title plus a one-to-two-sentence description, explaining "here's what this does." Never expand these into paragraphs. If a feature needs more explanation than two sentences, it belongs in its own dedicated section, not a bigger card in this grid.
 
+## Always use a real custom icon library — never emojis where an icon belongs
+
+Icons come from a defined, professionally-drawn icon set — Lucide, Phosphor, Heroicons, or Tabler are the defaults — chosen once per project and used consistently, so every icon on the page shares one visual language (stroke weight, corner radius, level of detail). Never drop an emoji into a spot where an icon is meant to go: emojis render inconsistently across platforms, clash with the type and color system, and instantly read as unconsidered. Where an icon can be given a subtle animation (a draw-in on scroll, a gentle state change on hover), prefer that over a static glyph, especially inside a card.
+
 ## Headlines never render plain — but the mechanism is a per-project choice
 
 Five projects, five different treatments, each applied consistently across every major headline on that one page (not mixed within a single page):
@@ -56,7 +60,16 @@ Check `references/build-log.md` for what recent sections and recent whole projec
 
 ## Cards are a default to resist, not a neutral container
 
-A bordered, rounded-rectangle box is the single most common container in generic web design, and reaching for it automatically is itself part of the blandness to avoid. Prefer fading divider lines to separate content where that's enough structure on its own. Where grouping genuinely needs a contained shape, look for something more considered than a plain box before settling for one. Any card-like container that does get used needs a real hover interaction — a lift, a border glow, a color shift — never a static box that just sits there.
+A bordered, rounded-rectangle box is the single most common container in generic web design, and reaching for it automatically is itself part of the blandness to avoid. Prefer fading divider lines to separate content where that's enough structure on its own. Where grouping genuinely needs a contained shape, look for something more considered than a plain box before settling for one.
+
+**Cap the whole page at one or two sections that use cards at all** — if three or more sections are reaching for cards, most of them should be redesigned around dividers, a scattered/staggered arrangement, or a genuinely different container. Cards are the exception on a page, not the connective tissue.
+
+And a card that does earn its place is never a plain box. It carries at least one deliberate touch of customization:
+- a subtle shiny/glossy gradient fill (low-contrast, adds depth without noise — see the gradient rule below),
+- a glass-like, semi-transparent border or stroke, or a frosted/backdrop-blur surface,
+- an animated icon or other live element inside it,
+
+plus a real hover interaction — a lift, a border glow, a color shift — never a static box that just sits there. A plain flat-fill bordered card with a static emoji and no hover is the exact failure this rule exists to prevent (flagged directly on the Flare build).
 
 ## Don't let one animation primitive become the default for everything
 
