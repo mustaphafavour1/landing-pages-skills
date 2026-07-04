@@ -83,6 +83,10 @@ When a section title is naturally two short parts ("Six things, one template."),
 
 Sections that sit close together read as cramped and undifferentiated regardless of how good any individual section is. Default to roughly 1.75 times the vertical spacing that would otherwise feel like enough. Sections should never feel adjacent to their neighbors.
 
+## Overall side padding is about 4–8% of screen width — default to 4%
+
+The page's left/right gutter should be roughly 4–8% of the viewport width, and **4% most of the time** so there's plenty of horizontal room for content to breathe and stretch. Reach toward 8% only when a section deliberately wants a narrower, more contained measure (a long text passage, a centered focal moment). This is a horizontal container rule and is separate from the generous *vertical* spacing between sections above — set it as a responsive value (a percentage or a clamp), not a fixed pixel margin, so it holds across viewport sizes, and tighten it appropriately on mobile where 4% of a small screen is too little.
+
 ## Subtle gradients add depth without adding noise
 
 A flat fill isn't always the right call. A soft gradient — radial or linear, low-contrast — behind a card, inside an icon container, or washing gently across a section background, adds real depth and richness without competing with content the way a busy pattern or a loud color block would. Reserve strong flat color for the moments meant to actually grab attention (a primary button, an active state); let ambient depth come from a gradient that's barely noticeable until you look for it.

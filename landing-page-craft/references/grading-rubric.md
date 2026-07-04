@@ -51,7 +51,10 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 **Process**
 - [ ] Type and color were actually checked in with the person before being finalized, not decided alone — evidence:
 - [ ] Spacing between sections feels generous (~1.75x), sections don't feel adjacent to neighbors — evidence:
+- [ ] Side padding sits around 4–8% of viewport width (4% most sections), responsive not fixed-pixel — evidence:
 - [ ] Copy sounds like this brand specifically, not a generic template voice — evidence:
+- [ ] Any form is branded in the site's own design and submits to a Google Form via pre-fill link (or is clearly stubbed pending the link) — N/A if no form — evidence:
+- [ ] If this is a business page: ~75% of sections are built around real photography, not abstract vector concepts — N/A otherwise — evidence:
 
 **Mobile and hardening** (skip hardening items for a quick test build not headed to production)
 - [ ] Headlines and fixed-dimension containers hold up at small viewports — evidence:

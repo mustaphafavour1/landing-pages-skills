@@ -31,6 +31,24 @@ If the working environment can't render that stack live, say so plainly rather t
 
 ---
 
+## Forms always submit to a Google Form
+
+Any form on the site — waitlist, contact, enquiry, apply-to-speak, order/booking, whatever — is a **branded, custom-built form in the site's own design** whose submissions are forwarded to a Google Form behind the scenes via that form's **pre-fill link**. The visitor never sees a raw Google Form; they see the site's styling, and the data lands in the Google Form's responses (and its linked responses spreadsheet).
+
+**Ask for this early, as soon as it's clear the site needs a form** — it's a dependency on the person, like photos are. Ask them to create a Google Form with fields that match what the site's form collects, and to send back its **pre-fill link**. Then map each on-site field to the corresponding Google Form entry ID parsed from that pre-fill link, and submit to it on the form's submit handler (the standard approach is a POST to the form's `/formResponse` endpoint with the `entry.<id>` parameters, or an equivalent). If the person hasn't provided the link yet, build the branded form UI fully but leave the submission target clearly stubbed and flagged, rather than inventing an endpoint.
+
+Always give the person the steps to fetch a Google Form's pre-fill link, since most people don't know where it is:
+
+1. Open the Google Form in edit mode.
+2. Click the three-dot **⋮** overflow menu at the top right.
+3. Choose **"Get pre-filled link."**
+4. Fill in each field with a recognizable placeholder value (e.g. type the field's own name into it), then click **"Get link"** at the bottom.
+5. Click **"Copy link"** in the popup and send it over.
+
+That link contains every field's `entry.<id>` and is exactly what's needed to map the branded form's fields to the Google Form.
+
+---
+
 ## Type and color, chosen with the person, not decided alone
 
 Before committing to either, do a short visual check-in rather than deciding silently:
@@ -44,11 +62,13 @@ Both test builds so far skipped this and decided both alone — it happened to l
 
 ## Site type first
 
-Work out which of three shapes this is before anything else — the taste rules and framework below apply to all three, but the section inventory differs:
+Work out which of five shapes this is before anything else — the taste rules and framework below apply to all of them, but the section inventory and, for the business type, the visual approach differ:
 
 - **Product landing page** (Allowance, didii, TrashPay) — waitlist or download-focused, pricing, use cases, feature grid.
 - **Portfolio / case-study page** (Revolut Founder Mode) — a designer's own concept pitch: a bio block, real-world stats to justify relevance, "reach out" instead of a waitlist.
 - **Event / conference page** (FlutterBytes) — speaker showcase, past-editions history, organizing-team credit, sponsors, agenda.
+- **Business page** (a fashion label, a bakery, a salon, a studio — an established real-world business, not a startup) — sells a real product or service that already exists, so it leans image-heavy and atmosphere-first rather than feature-grid-first. Aim for roughly 75% of sections to be built around real photography (menu/lookbook/gallery/space), with the signature-move and animation rules layered on top of the imagery rather than replacing it.
+- **Hybrid** — a deliberate mix of two or three of the above (a product that's also pitching an event, a business with a portfolio of past work). Pick the dominant type for the overall structure and spacing, then borrow the specific sections that the secondary type needs.
 
 Read `references/site-types.md` for the section inventory and structural notes for each. If it's genuinely none of these, treat it as closest to a product landing page and adapt.
 
@@ -56,7 +76,7 @@ Read `references/site-types.md` for the section inventory and structural notes f
 
 ## The process
 
-1. **Get oriented.** Brand name, what it does, who it's for, any reference site or mood named.
+1. **Get oriented.** Brand name, what it does, who it's for, any reference site or mood named. If it's clear the site will need a form (waitlist, contact, enquiry, order), raise the Google Form dependency now per the forms section above — ask the person to create the Google Form and send its pre-fill link, so it isn't a scramble at the end.
 
 2. **Find the one core concept before touching any section.** Not a feature list — the single thing the user actually gets or feels from this product, stated as one plain sentence, plus two or three supporting ideas. Every section's signature move gets checked against this later.
 
