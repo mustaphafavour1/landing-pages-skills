@@ -47,12 +47,22 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 **Type and headlines**
 - [ ] Display type is memorable and specific, not a system/default face — evidence:
 - [ ] One deliberate headline mechanism, applied consistently everywhere a major headline appears — evidence:
+- [ ] Titles are short and subtitles concise, not full-sentence template filler — evidence:
+- [ ] Two-part titles split across two lines sensibly (no orphaned single word, no forced split on a short title) — evidence:
+- [ ] Any unavoidably long title de-emphasizes its tail at a smaller-but-still-obvious size rather than one flat wall of large text — N/A if no long title — evidence:
+
+**Layout and theme**
+- [ ] Top navbar stays visible while scrolling with a ~80% translucent, background-blurred fill — N/A if the brief opted out — evidence:
+- [ ] Theme (light vs dark) was chosen to suit the brand, not defaulted to dark — evidence:
+- [ ] Section backgrounds vary (near-white/near-black steps or subtle gradients), not one flat background top to bottom — evidence:
 
 **Process**
 - [ ] Type and color were actually checked in with the person before being finalized, not decided alone — evidence:
 - [ ] Spacing between sections feels generous (~1.75x), sections don't feel adjacent to neighbors — evidence:
 - [ ] Side padding sits around 4–8% of viewport width (4% most sections), responsive not fixed-pixel — evidence:
 - [ ] Copy sounds like this brand specifically, not a generic template voice — evidence:
+- [ ] Copy names no competitor brands, direct or indirect (unless explicitly asked for) — evidence:
+- [ ] The person was asked for concepts/visuals they'd want to include, especially for the hero, before one was invented — evidence:
 - [ ] Any form is branded in the site's own design and submits to a Google Form via pre-fill link (or is clearly stubbed pending the link) — N/A if no form — evidence:
 - [ ] If this is a business page: ~75% of sections are built around real photography, not abstract vector concepts — N/A otherwise — evidence:
 

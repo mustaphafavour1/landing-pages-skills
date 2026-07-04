@@ -10,6 +10,10 @@ Every one of the five projects has a compact grid (2x3 or similar) of icon plus 
 
 Icons come from a defined, professionally-drawn icon set — Lucide, Phosphor, Heroicons, or Tabler are the defaults — chosen once per project and used consistently, so every icon on the page shares one visual language (stroke weight, corner radius, level of detail). Never drop an emoji into a spot where an icon is meant to go: emojis render inconsistently across platforms, clash with the type and color system, and instantly read as unconsidered. Where an icon can be given a subtle animation (a draw-in on scroll, a gentle state change on hover), prefer that over a static glyph, especially inside a card.
 
+## The top navbar stays visible, with a translucent blurred fill
+
+Unless the brief explicitly says otherwise, the top navigation is always visible as the visitor scrolls (sticky/fixed), with a fill at around **80% opacity plus a background blur** (backdrop-blur) so content scrolling underneath is softly visible through it rather than hidden behind a solid bar. This keeps navigation reachable at every scroll position while staying light and glassy rather than a heavy opaque block. Only drop the always-visible behavior when there's a deliberate reason and it's been stated.
+
 ## Headlines never render plain — but the mechanism is a per-project choice
 
 Five projects, five different treatments, each applied consistently across every major headline on that one page (not mixed within a single page):
@@ -75,9 +79,19 @@ plus a real hover interaction — a lift, a border glow, a color shift — never
 
 A dot or particle traveling along a path is one valid device, not the only one. A line that draws itself from one point to another — a stroke revealing progressively, like Allowance's hero — is an equally strong, visually distinct alternative. Keep a small set of different primitives in rotation, and never reuse the exact same one twice on a single page.
 
-## Two-part short section titles go on two lines, in Title Case
+## Keep titles short and subtitles concise
 
-When a section title is naturally two short parts ("Six things, one template."), split them onto separate lines rather than running them together in one sentence, and set every major word with an initial capital, including "The." "Six Things" / "One Template." reads as a considered, designed title; the single run-on sentence reads as an afterthought.
+Section titles and hero titles should be as short as they can be while still saying the thing — a few punchy words beats a full sentence. Subtitles should be as concise as possible: one tight line that adds what the title can't carry, not a paragraph restating it. Long titles and rambling subtitles are the default-template tell; sharpen them down before styling them.
+
+## Two-part section titles go on two lines, in Title Case — applied with context
+
+When a section title is naturally two parts — typically split at a `;`, `-`, or `,` ("Six things, one template.") — put the second part on its own line rather than running both together in one sentence, and set every major word with an initial capital, including "The." "Six Things" / "One Template." reads as a considered, designed title; the single run-on sentence reads as an afterthought.
+
+Apply this with judgment, not mechanically: don't break so that a single lonely word sits on one line while the rest drops to the next, and don't force a two-line split on a title that's genuinely short enough to sit comfortably on one. The goal is a balanced, deliberate-looking pair of lines — if the split would look awkward or orphan a word, keep it on one line instead.
+
+## If a title is unavoidably long, de-emphasize its tail rather than shrinking the whole thing
+
+When a hero or section title can't be made short, don't render the whole thing at one big size — pick the less-essential part (preferably the last divisible part) and set it at a smaller size than the main part, while keeping it clearly visible and obviously part of the same title. This preserves a strong focal size for the words that matter and stops a long title from reading as one flat wall of large text. It's a size contrast within the title, not a hierarchy that hides anything — the smaller part still has to be very obvious.
 
 ## Generous spacing between sections — about 1.75x whatever feels sufficient
 
@@ -91,6 +105,12 @@ The page's left/right gutter should be roughly 4–8% of the viewport width, and
 
 A flat fill isn't always the right call. A soft gradient — radial or linear, low-contrast — behind a card, inside an icon container, or washing gently across a section background, adds real depth and richness without competing with content the way a busy pattern or a loud color block would. Reserve strong flat color for the moments meant to actually grab attention (a primary button, an active state); let ambient depth come from a gradient that's barely noticeable until you look for it.
 
+## Not every site is dark — pick the theme that actually suits it, and vary section backgrounds
+
+Dark theme is not the default. Choose light or dark based on what genuinely fits the brand, the audience, and the imagery — a bakery, a fashion label, or an airy editorial product often reads far better light; plenty of others suit dark. Decide deliberately as part of the type-and-color step, not by habit.
+
+Whichever base theme is chosen, the whole page should not be one single flat background top to bottom. Give some sections their own distinct background — a value close to white or close to black (a step off the base), or a subtle gradient — so there's rhythm and separation between sections. The rule is just that a differentiated section's background is clearly *not* the same as the surrounding sections; it shouldn't be a jarring loud color block (that stays reserved for genuine attention moments per the gradient rule), but it should be visibly its own surface.
+
 ## Ambient background texture stays almost illegible at rest
 
 Decorative background motifs — circuit lines, particle fields, connection lines, watermark wordmarks — should sit at very low opacity and never compete with foreground content for attention. Presence, not prominence.
@@ -98,6 +118,8 @@ Decorative background motifs — circuit lines, particle fields, connection line
 ## Voice and copy are a taste surface too, not just visuals
 
 Word choice, punctuation, and small verbal puns carry brand personality as much as color and type do. Match the copy's actual voice to the audience, and don't be afraid of a genuinely audience-specific metaphor for a whole section's framing, not just its word choice — a team-credit section reframed around "commits" for a developer audience, for instance, rather than a generic "meet the team."
+
+Don't name competitor brands in the copy — direct or indirect — unless the person has specifically asked for it (a case-study/portfolio page reimagining a named company is the obvious exception, and it's stated). Make the point through the value itself ("no more juggling five separate tools") rather than by calling out a rival by name.
 
 ## The design-token pattern, if the site needs light/dark theming or is going to production
 

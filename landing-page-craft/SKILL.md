@@ -53,8 +53,8 @@ That link contains every field's `entry.<id>` and is exactly what's needed to ma
 
 Before committing to either, do a short visual check-in rather than deciding silently:
 
-- **Type:** check `references/typeface-library.md` for candidates not recently overused, then propose three distinctive, non-obvious display typeface candidates and actually render the product's name in each one, in whatever way the environment supports (an image, a quick preview, a live component) — never just list font names as text. Let the person choose from real letterforms, not a guess about what a name sounds like. A genuinely new typeface outside the library is a welcome option too — if it's picked, add it to `references/typeface-library.md` afterward.
-- **Color:** propose a palette (4–6 named values) with the reasoning behind each choice grounded in the subject, and confirm before it's final.
+- **Type:** check `references/typeface-library.md` for candidates not recently overused, then propose three distinctive, non-obvious display typeface candidates and actually render the product's name in each one, in whatever way the environment supports (an image, a quick preview, a live component) — never just list font names as text. Let the person choose from real letterforms, not a guess about what a name sounds like. A genuinely new typeface outside the library is a welcome option too — if it's picked, add it to `references/typeface-library.md` afterward. **Never skip this proposal-and-confirmation step** — even when a strong recommendation is obvious or a library typeface is already going to be used, still surface the candidates and confirm rather than deciding silently.
+- **Color and theme:** propose a palette (4–6 named values) with the reasoning behind each choice grounded in the subject, and decide light vs. dark theme deliberately here rather than defaulting to dark (see the theme rule in `references/taste-rules.md` — plenty of brands read better light). Confirm both before they're final.
 
 Both test builds so far skipped this and decided both alone — it happened to land well twice, but that's luck, not the process working as intended.
 
@@ -78,7 +78,7 @@ Read `references/site-types.md` for the section inventory and structural notes f
 
 1. **Get oriented.** Brand name, what it does, who it's for, any reference site or mood named. If it's clear the site will need a form (waitlist, contact, enquiry, order), raise the Google Form dependency now per the forms section above — ask the person to create the Google Form and send its pre-fill link, so it isn't a scramble at the end.
 
-2. **Find the one core concept before touching any section.** Not a feature list — the single thing the user actually gets or feels from this product, stated as one plain sentence, plus two or three supporting ideas. Every section's signature move gets checked against this later.
+2. **Find the one core concept before touching any section.** Not a feature list — the single thing the user actually gets or feels from this product, stated as one plain sentence, plus two or three supporting ideas. Every section's signature move gets checked against this later. Also ask the person directly whether they already have concepts, visuals, or ideas they'd love to include or illustrate — especially for the hero — so their own vision feeds the concept rather than being overwritten by an invented one.
 
 3. **Choose type and color with the person** (above), grounded in the subject, not decided alone.
 
