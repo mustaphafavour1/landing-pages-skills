@@ -65,6 +65,7 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 - [ ] The person was asked for concepts/visuals they'd want to include, especially for the hero, before one was invented — evidence:
 - [ ] Any form is branded in the site's own design and submits to a Google Form via pre-fill link (or is clearly stubbed pending the link) — N/A if no form — evidence:
 - [ ] If this is a business page: ~75% of sections are built around real photography, not abstract vector concepts — N/A otherwise — evidence:
+- [ ] If this is a European website: hero uses downloaded real photography (Unsplash/Pexels/Pixabay or supplied) in a ~98%-width rounded frame (20–32px radius), kept simple with no busy overlay, no waitlist — N/A otherwise — evidence:
 
 **Mobile and hardening** (skip hardening items for a quick test build not headed to production)
 - [ ] Headlines and fixed-dimension containers hold up at small viewports — evidence:

@@ -1,6 +1,6 @@
 # Site Types
 
-Five shapes. The first three are drawn from past builds; the last two (business, hybrid) are defined categories to build toward. The taste rules and the signature-move framework apply to all of them; what differs is which sections belong and — for the business type — how heavily the page leans on real photography.
+Six shapes. The first three are drawn from past builds; the last three (business, hybrid, European) are defined categories to build toward. The taste rules and the signature-move framework apply to all of them; what differs is which sections belong and — for the business and European types — how heavily the page leans on real photography and how the hero is treated.
 
 ## Product landing page
 
@@ -40,6 +40,19 @@ A deliberate mix of two or three of the other types. Examples: a product launch 
 
 How to structure it: pick the **dominant type** first — the one that owns the primary CTA and the overall goal — and use its section inventory and spacing as the backbone. Then borrow only the specific sections the secondary type genuinely needs (an event's dated-agenda and ticket block, a case-study's stats-and-bio pair, a business's image-forward gallery) and weave them in where they fit the narrative, rather than bolting a whole second page on the end. Keep one core concept, one type/color system, and one headline mechanism across the whole thing — the mix is in the sections, not in a split personality. Log in the build entry which types were combined and which was dominant, so the pattern is traceable later.
 
+## European website
+
+A clean, restrained, premium-feeling site in the style of high-end European studio work and the best paid Framer templates — lots of calm space, confident typography, real photography, and quiet motion. It uses all the same foundations as the other types (the signature-move framework, the taste rules, the type/color and theme decisions); what makes it its own category is the hero treatment and an overall restraint.
+
+**The hero is deliberately simple and photo-led:**
+- Fetch and **download** one or more suitable real photographs from **Unsplash, Pexels, or Pixabay** (all free to use) and use them as the hero's background image(s) — download them into the project as local assets rather than hot-linking, and pick images that genuinely fit the brand's subject, mood, and palette rather than generic filler. Ask the person first if they'd rather supply their own photography.
+- Present the image(s) inside a **rounded rectangular frame about 98% of the viewport width** — the signature premium-Framer look — with **corner radius around 20–32px**. The frame sits centered with a small, even gutter on each side.
+- **Keep the hero uncomplicated.** No busy signature-visual concept layered on top, no particle systems, no competing animated overlays — the photograph and the headline carry it. The headline still follows the headline rules (never plain, one mechanism), and quiet, tasteful motion is welcome (a slow subtle zoom/parallax on the image, a soft fade-up on the text), but the hard rule about every hero having one signature idea is satisfied *by the framed-photo treatment itself* here — that restraint is the concept.
+
+Typical section inventory: the framed photo hero, a concise intro/positioning statement, a small feature or offering overview, a photography-forward showcase or gallery, social proof, and a simple contact or enquiry CTA. **No waitlist** — this type is not a pre-launch startup pitch. Keep the whole thing simple, but not boring: the interest comes from beautiful imagery, generous space, confident type, and restrained motion rather than from a dense stack of signature concepts.
+
+Distinguishing traits: restraint is the point. Where a product page earns its keep with a distinct signature move in every section, a European site earns it with taste, spacing, photography, and polish. Fewer loud ideas, executed impeccably.
+
 ## If it's none of these
 
-Treat it as closest to a product landing page and adapt — the underlying taste rules and the signature-move framework don't depend on which of these five it is.
+Treat it as closest to a product landing page and adapt — the underlying taste rules and the signature-move framework don't depend on which of these six it is.

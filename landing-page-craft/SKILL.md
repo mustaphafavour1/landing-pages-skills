@@ -62,13 +62,14 @@ Both test builds so far skipped this and decided both alone — it happened to l
 
 ## Site type first
 
-Work out which of five shapes this is before anything else — the taste rules and framework below apply to all of them, but the section inventory and, for the business type, the visual approach differ:
+Work out which of six shapes this is before anything else — the taste rules and framework below apply to all of them, but the section inventory and, for the business and European types, the visual approach differ:
 
 - **Product landing page** (Allowance, didii, TrashPay) — waitlist or download-focused, pricing, use cases, feature grid.
 - **Portfolio / case-study page** (Revolut Founder Mode) — a designer's own concept pitch: a bio block, real-world stats to justify relevance, "reach out" instead of a waitlist.
 - **Event / conference page** (FlutterBytes) — speaker showcase, past-editions history, organizing-team credit, sponsors, agenda.
 - **Business page** (a fashion label, a bakery, a salon, a studio — an established real-world business, not a startup) — sells a real product or service that already exists, so it leans image-heavy and atmosphere-first rather than feature-grid-first. Aim for roughly 75% of sections to be built around real photography (menu/lookbook/gallery/space), with the signature-move and animation rules layered on top of the imagery rather than replacing it.
 - **Hybrid** — a deliberate mix of two or three of the above (a product that's also pitching an event, a business with a portfolio of past work). Pick the dominant type for the overall structure and spacing, then borrow the specific sections that the secondary type needs.
+- **European website** — a clean, restrained, premium-feeling site in the style of high-end European studio/Framer-template work. Same foundations as the others, but the hero is deliberately simple: one or more suitable real photographs (fetched and downloaded from Unsplash, Pexels, or Pixabay) set as the hero background inside a ~98%-width rounded rectangular frame, with no busy signature-visual layered on top. No waitlist. Simple, but not boring.
 
 Read `references/site-types.md` for the section inventory and structural notes for each. If it's genuinely none of these, treat it as closest to a product landing page and adapt.
 
