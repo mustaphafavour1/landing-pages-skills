@@ -1,6 +1,6 @@
 # Site Types
 
-Six shapes. The first three are drawn from past builds; the last three (business, hybrid, European) are defined categories to build toward. The taste rules and the signature-move framework apply to all of them; what differs is which sections belong and — for the business and European types — how heavily the page leans on real photography and how the hero is treated.
+Seven shapes. The first three are drawn from past builds; the last four (business, hybrid, European, mini-business) are defined categories to build toward. The taste rules and the signature-move framework apply to all of them; what differs is which sections belong and — for the business, European, and mini-business types — how heavily the page leans on real photography and how the hero is treated.
 
 ## Product landing page
 
@@ -53,6 +53,32 @@ Typical section inventory: the framed photo hero, a concise intro/positioning st
 
 Distinguishing traits: restraint is the point. Where a product page earns its keep with a distinct signature move in every section, a European site earns it with taste, spacing, photography, and polish. Fewer loud ideas, executed impeccably.
 
+## Mini-business landing page
+
+Examples of the audience this serves: a machinery dealer, a bulk exporter, a manufacturer, an industrial supplier, a wholesaler — established, often B2B, often traditional businesses that are genuinely operating already but have **no website at all**. The job of this page is unusually specific: it isn't just marketing, it's the first piece of digital credibility this business has ever had, often built *to convince the business itself* that having a real web presence is worth it. Every choice should serve that: would a skeptical buyer, or the business owner themselves, look at this and immediately feel the business just became more serious and more trustworthy?
+
+**Exactly four sections, always — no more, no fewer:**
+
+1. **Hero.** Confident, premium, photo-led. See the five hero iterations below — rotate between them the same way signature concepts rotate elsewhere, and check `references/concept-gallery.md` before defaulting to the same one repeatedly.
+2. **Offering.** A tight overview of what the business actually does or sells — product range, service categories, or capability summary. Treat this like a compressed version of the icon-grid feature section: a handful of clear categories (machinery types, export capabilities, service lines), each with a short label and one line of description, not paragraphs. Photography here is welcome and encouraged (real product/facility shots) over abstract icons where photos are available.
+3. **Proof.** The section doing the actual convincing. Real trust signals only — years in operation, volume/scale numbers (units shipped, tonnage exported, countries served, clients served), certifications or quality standards, client/partner logos, a short real testimonial if one exists. Numbers here follow the standing rule: they animate in, never render static. This section is not optional filler; for a business with zero prior online presence, this is what makes the rest of the page believable.
+4. **Contact us.** Always present, in every build of this type, without exception. Give both a direct-contact block and a branded enquiry form:
+   - **Direct contact:** phone number, email, and — since this audience skews trade/export/B2B where it's the norm — WhatsApp where relevant, plus location/address and business hours if applicable. Make these tappable/clickable, not just printed text.
+   - **Branded enquiry form:** fields suited to a B2B enquiry (name, company name, email, phone, enquiry/message), styled in the site's own design, forwarding to a Google Form via its pre-fill link per the standing forms rule above in `SKILL.md` — the same ask-early, ask-for-the-pre-fill-link process applies here.
+   - A confident CTA framing fits better than a generic "get in touch" — "Request a Quote," "Book a Call," "Talk to Our Team."
+
+**The five hero iterations to rotate between** (reference patterns, not a menu to pick from mechanically — invent a genuine sixth if none fits):
+
+- **Full-bleed overlay hero with a floating nav pill.** A full-bleed premium photo (people, product, or facility), a rounded floating pill navbar sitting on top of the image rather than a full-width bar, the headline overlaid in the lower third in a mixed serif/italic-accent treatment, a short subtitle, a pill-shaped primary CTA with a small circular icon, and one or two floating cards in a corner surfacing a secondary offer or credential.
+- **Full-bleed atmospheric photo hero.** A single full-bleed photo with a dark tonal overlay for legibility, a large serif headline anchored to one upper corner, a short subtitle and a single solid-accent-color CTA button anchored to the same side, transparent navbar sitting directly on the image.
+- **Circled-keyword hero with a frosted stat card.** A photo hero where one keyword inside the headline gets a circled or pill-outlined accent treatment, a small eyebrow label plus one-line service blurb, a CTA button, and a floating frosted/glass stat card (a real number — revenue, output, delivery volume) overlapping the photo; a client-logo strip sits directly beneath the hero as an immediate trust signal.
+- **Split image/text hero with a trust cluster.** Two-column hero: a real photo fills one side edge-to-edge, the other side is calm negative space holding the logo, a small avatar-cluster trust indicator ("50+ businesses trust us" or similar, with real or representative faces), and a bold headline anchored to the bottom of the text column.
+- **Text-first hero into an arched photo reveal.** The hero opens with type only — an eyebrow label, a headline with one keyword in an accent color, a short paragraph, and a CTA — then immediately below, a full-width photo masked with a soft arch/curve cutout at the top edge and a "scroll down" indicator centered over it.
+
+**Premium execution, not just premium description:** real, professional photography is non-negotiable here (source and download from Unsplash/Pexels/Pixabay per the European type's method if the business can't supply its own, but always ask first whether real photos of their actual product, machinery, or facility exist — those beat stock every time for this category specifically, since credibility is the whole point). Favor glass-morphism/frosted-blur floating cards for stat callouts, a confident accent CTA color against a mostly neutral photo-driven palette, and generous negative space even inside a four-section page — cramming four sections doesn't mean cramming each section. The floating stat/credential card inside the hero is part of that hero's signature move and doesn't count against the standing one-or-two-sections cards cap elsewhere in `references/taste-rules.md`; a plain bordered card used as a generic container inside the Offering or Proof sections still does.
+
+Distinguishing traits: this is the only type with a hard section-count ceiling, and the only type explicitly built to serve as someone's very first web presence — the bar for "does this look trustworthy and premium" is higher here than almost anywhere else in this skill, precisely because there's no existing brand reputation to lean on.
+
 ## If it's none of these
 
-Treat it as closest to a product landing page and adapt — the underlying taste rules and the signature-move framework don't depend on which of these six it is.
+Treat it as closest to a product landing page and adapt — the underlying taste rules and the signature-move framework don't depend on which of these seven it is.

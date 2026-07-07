@@ -47,6 +47,48 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Trigger:** ambient, looping
 - **Seen in:** Weft (test build) — hero
 - **Status:** active
+
+### Full-bleed overlay with floating nav pill
+- **Core idea:** premium and immediately credible, people-first
+- **Physical metaphor:** a full-bleed photo, a rounded floating navbar pill sitting on top of the image, headline overlaid in the lower third in mixed serif/italic accent type, a pill CTA with a small circular icon, one or two floating corner cards surfacing a secondary offer or credential
+- **Trigger:** ambient photo, scroll-triggered fade-up for the overlaid text and cards
+- **Seen in:** reference example for the mini-business landing page type (provided screenshot, "OPTIMO")
+- **Status:** active
+- **Image:** none yet
+- **Notes:** floating corner cards are doing real trust-signal work here, not just decoration — keep them tied to a real credential or offer, not filler.
+
+### Full-bleed atmospheric photo hero
+- **Core idea:** mood and craft, told through a single strong image
+- **Physical metaphor:** one full-bleed photo with a dark tonal overlay for legibility, a large serif headline anchored to one upper corner, subtitle and a single solid-accent CTA anchored below it, transparent navbar directly on the image
+- **Trigger:** ambient photo, scroll-triggered fade-up for the text block
+- **Seen in:** reference example for the mini-business landing page type (provided screenshot, "Restro")
+- **Status:** active
+- **Image:** none yet
+
+### Circled-keyword hero with frosted stat card
+- **Core idea:** one idea in the headline made literally impossible to miss, backed by a real number
+- **Physical metaphor:** a photo hero where one keyword gets a circled/pill-outlined accent treatment, an eyebrow label plus one-line blurb, a CTA, and a floating frosted/glass stat card overlapping the photo, with a client-logo strip directly beneath the hero
+- **Trigger:** interaction/ambient photo, scroll-triggered reveal for the stat card and logo strip
+- **Seen in:** reference example for the mini-business landing page type (provided screenshot, "Busininity")
+- **Status:** active
+- **Image:** none yet
+- **Notes:** the client-logo strip immediately under the hero is doing as much trust-building work as the stat card — don't drop it when adapting this pattern.
+
+### Split image/text hero with trust cluster
+- **Core idea:** calm confidence — let the work speak, prove it's already trusted
+- **Physical metaphor:** a two-column hero, a real photo filling one side edge-to-edge, the other side calm negative space holding the logo, a small avatar-cluster trust indicator ("50+ founders trust us"), and a bold headline anchored to the bottom of the text column
+- **Trigger:** ambient photo, scroll-triggered reveal for headline and trust cluster
+- **Seen in:** reference example for the mini-business landing page type (provided screenshot, "Norvex")
+- **Status:** active
+- **Image:** none yet
+
+### Text-first hero into arched photo reveal
+- **Core idea:** state the value plainly first, then let the image confirm it
+- **Physical metaphor:** a type-only opening block (eyebrow label, headline with one accent-colored keyword, short paragraph, CTA), immediately followed by a full-width photo masked with a soft arch/curve cutout at its top edge and a centered "scroll down" indicator
+- **Trigger:** scroll-triggered reveal into the arched photo section
+- **Seen in:** reference example for the mini-business landing page type (provided screenshot, "Clientix")
+- **Status:** active
+- **Image:** none yet
 - **Image:** none yet
 - **Notes:** graded as the strongest section of that build by a clear margin. Only reuse for a product with a genuine textile/weave/network conceit — otherwise it's borrowed rather than earned.
 

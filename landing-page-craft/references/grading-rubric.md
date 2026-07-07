@@ -66,6 +66,8 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 - [ ] Any form is branded in the site's own design and submits to a Google Form via pre-fill link (or is clearly stubbed pending the link) — N/A if no form — evidence:
 - [ ] If this is a business page: ~75% of sections are built around real photography, not abstract vector concepts — N/A otherwise — evidence:
 - [ ] If this is a European website: hero uses downloaded real photography (Unsplash/Pexels/Pixabay or supplied) in a ~98%-width rounded frame (20–32px radius), kept simple with no busy overlay, no waitlist — N/A otherwise — evidence:
+- [ ] If this is a mini-business landing page: exactly four sections (hero, offering, proof, contact), a Contact Us section is present with both direct contact info and a branded form forwarding to a Google Form, the hero uses real/premium photography, and the proof section has real trust signals (stats, logos, certifications) rather than filler — N/A otherwise — evidence:
+- [ ] If this is a mini-business landing page: the hero pattern isn't a repeat of the last mini-business build logged — check `references/concept-gallery.md` — N/A otherwise — evidence:
 
 **Mobile and hardening** (skip hardening items for a quick test build not headed to production)
 - [ ] Headlines and fixed-dimension containers hold up at small viewports — evidence:
