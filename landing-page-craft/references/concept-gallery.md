@@ -50,6 +50,33 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Image:** none yet
 - **Notes:** graded as the strongest section of that build by a clear margin. Only reuse for a product with a genuine textile/weave/network conceit — otherwise it's borrowed rather than earned.
 
+### Photo composing into a cover — the raw input becoming the finished output
+- **Core idea:** your ordinary photo becomes a real, art-directed magazine cover
+- **Physical metaphor:** cover "furniture" (masthead, cover lines, category tab, barcode) fading/rising into place over a plain photograph, with a floating chip that morphs from a raw filename (`DSC_0642.JPG`) into an issue label (`Cover · N°14`)
+- **Trigger:** load-triggered compose (staggered), the chip crossfade timed to land after the furniture settles
+- **Seen in:** Kronikl — hero
+- **Status:** active
+- **Image:** none yet
+- **Notes:** reads in two seconds with no caption because the *form* is literal — it's an actual cover assembling, not an abstract stand-in. Reuse only for products whose value is "raw input → finished designed artifact" (photo→cover, draft→published, clip→edit). The filename→label chip is the detail that makes the transformation legible; keep it.
+
+### Spread assembling — an empty layout filling with the user's content
+- **Core idea:** you bring the pieces, the template arranges them into a designed page
+- **Physical metaphor:** an open two-page magazine spread where photo slots wipe in (clip-path reveal), text lines draw in (scaleX from left), a masthead fades up, and a "Print-ready · 300 DPI" stamp lands at the end — each phase tied to the active how-it-works step
+- **Trigger:** state-driven (auto-cycling steps, also clickable), photos on step 1, text/masthead on step 2, export stamp on step 3
+- **Seen in:** Kronikl — How It Works (the alive non-text side of a two-column section)
+- **Status:** active
+- **Image:** none yet
+- **Notes:** strong pattern for any "upload → arrange → export" product. Distinct from the hero's single-cover compose because it's a full editorial spread reacting to step state, and it uses clip-wipe + line-draw rather than fade — deliberately avoids the traveling-dot primitive flagged in the build log.
+
+### Contents-index tips — a magazine table of contents as the section layout
+- **Core idea:** practical guidance framed as editorial contents, native to the product
+- **Physical metaphor:** a two-column numbered index with oversized outlined folio numbers (text-stroke, filling solid yellow on hover) and hairline dividers between entries, each title getting a marker-underline draw on hover
+- **Trigger:** interaction-triggered (per-item hover), scroll reveal on entry
+- **Seen in:** Kronikl — "Field Guide" pro-tips section
+- **Status:** active
+- **Image:** none yet
+- **Notes:** a way to render a 6-item tips/steps list *without* another auto-cycling one-expanded showcase, so it doesn't repeat the archetype already used by the templates showcase and how-it-works on the same page. Good default when a page needs a third multi-item section and the first two already used single-focus cycling.
+
 ---
 
 ## Section / content concepts

@@ -34,6 +34,12 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 - **Used in:** Flare (test build) — display
 - **Status:** active
 
+### Syne — geometric fashion-display sans
+- **Mood / character:** editorial and fashion-forward; wide, slightly eccentric letterforms that read premium and art-directed at large weights (700/800), still clean in UI at 500/600
+- **Pairs well with:** Inter, IBM Plex Mono
+- **Used in:** Kronikl — display, headings, nav, card titles, buttons
+- **Status:** active — chosen by the client, not proposed; strong for magazine/editorial brands
+
 ---
 
 ## Label / data / mono typefaces
@@ -65,6 +71,12 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 - **Pairs well with:** Bricolage Grotesque, Space Mono
 - **Used in:** Flare (test build) — body
 - **Status:** active
+
+### Inter — neutral workhorse grotesque
+- **Mood / character:** invisible in the best way; a quiet, highly legible body face that lets a loud display type (Syne) carry all the personality
+- **Pairs well with:** Syne, Bricolage Grotesque
+- **Used in:** Kronikl — body copy, captions, small UI text
+- **Status:** active — safe body pairing; keep it strictly to body/small text so it never competes with the display face
 
 ---
 
