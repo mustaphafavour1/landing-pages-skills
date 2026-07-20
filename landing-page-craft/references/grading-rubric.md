@@ -55,6 +55,11 @@ Copy this block into the build's entry in `build-log.md` and fill it in. Use **P
 - [ ] Top navbar stays visible while scrolling with a ~80% translucent, background-blurred fill — N/A if the brief opted out — evidence:
 - [ ] Theme (light vs dark) was chosen to suit the brand, not defaulted to dark — evidence:
 - [ ] Section backgrounds vary (near-white/near-black steps or subtle gradients), not one flat background top to bottom — evidence:
+- [ ] One coherent style direction across the page (per `section-bank.md` families), not a split personality of mood families — evidence:
+
+**Section bank usage**
+- [ ] Bank rows that influenced sections were adapted (project's own palette, type scale, copy, imagery), not transplanted with the row's stock colors and specs — N/A if no rows used — evidence:
+- [ ] Rows used are logged in the build-log entry and aren't repeats from the last build's `Bank rows used:` line — N/A if no rows used — evidence:
 
 **Process**
 - [ ] Type and color were actually checked in with the person before being finalized, not decided alone — evidence:

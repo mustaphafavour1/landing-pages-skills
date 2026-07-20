@@ -4,6 +4,8 @@ A running record of what's been used on past builds with this skill, so a new pr
 
 Going forward, every new entry should end with the corrected scorecard from `references/grading-rubric.md` (Claude drafts it against the real render, the person corrects it) instead of just a prose verdict — the Weft and Flare entries below predate the rubric and keep their original prose-verdict format. Also cross-check `references/concept-gallery.md` and `references/typeface-library.md` when logging a new entry: log anything new there too, and retire anything that's now been used enough times to need a rest.
 
+Each new entry should also record the project's **style direction** (the family chosen from `references/section-bank.md`) and a **`Bank rows used:`** line listing which section-bank IDs influenced which sections (e.g. `HERO-05 (adapted: hero), FAQ-04 (FAQ), B2B-13 (proof baseline)`), so the next build can avoid leaning on the same rows.
+
 ## Weft (test build) — intelligent clothing & sensors
 
 - Type: Instrument Serif (display), IBM Plex Mono (data labels), Karla (body)
