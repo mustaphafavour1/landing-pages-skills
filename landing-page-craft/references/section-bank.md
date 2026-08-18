@@ -88,6 +88,7 @@ The bank is append-only, like the concept gallery:
 - **SEC-10** — Asymmetrical Interactive Use-Case Split · `split-use-case, interactive-accordion, layered-mockups, b2b-features`
 - **SEC-11** — Pastel Aurora Glass Feature Deck · `pastel-aurora, glassmorphism-icons, bento-features, symmetrical-deck`
 - **SEC-12** — Inset Workspace Dashboard Split · `dashboard-mockup, text-marker-highlight, checklist-timeline, editorial-feature-split`
+- **SEC-13** — Stamped Shipping Manifest List · `manifest-list, numbered-rows, fading-divider, no-card-grid, portfolio-catalog`
 
 ### Pricing Sections
 

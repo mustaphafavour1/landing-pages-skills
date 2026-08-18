@@ -92,6 +92,15 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Image:** none yet
 - **Notes:** graded as the strongest section of that build by a clear margin. Only reuse for a product with a genuine textile/weave/network conceit — otherwise it's borrowed rather than earned.
 
+### Ink-stamp impact headline
+- **Core idea:** a claim made real, made official, on the spot — this isn't a promise, it's already stamped and done
+- **Physical metaphor:** a rotated, outline-only rubber-stamp badge (border + uppercase tracked type in the accent color, transparent fill) around one word in a headline, landing with a scroll-triggered spring overshoot — scale and rotation settle like a stamp physically hitting paper, with a soft radial "ink bleed" glow timed to the impact
+- **Trigger:** scroll-triggered reveal (fires on load for hero, on scroll-into-view for later sections)
+- **Seen in:** headfavour.com — hero headline ("SHIPPED"), and reused smaller on every major section title ("SHORT", "CONNECT")
+- **Status:** active
+- **Image:** none yet
+- **Notes:** works because the badge is genuinely shaped like a stamp (rectangular outline, no fill, rotated a few degrees) rather than just colored text — passes the two-second test on its own. Only reuse for a brief with a real "made real / delivered / official" story (shipping, approvals, verification, launches) — it would read as arbitrary decoration on a brief without that angle. Doubles as the project's one required headline mechanism (see `taste-rules.md`).
+
 ---
 
 ## Section / content concepts
@@ -152,6 +161,24 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Seen in:** Flare (test build) — hero
 - **Status:** retired for hero use — competed with a separate headline effect on the same hero and diluted both (see build-log.md). Could work as a *section* concept instead of a hero concept, on its own with a quiet headline.
 - **Image:** none yet
+
+### Shipping manifest list — numbered catalog rows, not cards
+- **Core idea:** a running, provable log of what's actually live — not a portfolio pitch, a receipt
+- **Physical metaphor:** a full-width numbered list (01, 02, 03…) standing in for a catalog/portfolio grid — each row a consignment-style entry with a category tag, a pulsing "LIVE" status dot, and a destination URL, rows separated by fading divider lines instead of card borders
+- **Trigger:** scroll-triggered staggered slide-up entry for the list; interaction-triggered (hover) dash-offset underline draw + arrow shift per row
+- **Seen in:** headfavour.com — project catalog ("the shipping log")
+- **Status:** active
+- **Image:** none yet
+- **Notes:** direct answer to the standing "don't default to a plain bordered-card grid" rule for any portfolio/feature-list section — logged as section-bank row SEC-13. Reuse for any brief that's fundamentally a catalog of discrete, linkable things (past work, releases, press mentions, integrations) where a card grid would feel heavier than the content needs.
+
+### Stamp-badge icon row
+- **Core idea:** each link out is its own small, deliberate mark being left, not just an icon in a row
+- **Physical metaphor:** circular outline stamp badges (same ink-stamp visual language as the headline mechanism, applied to a set of icons) scattered with alternating tilt and vertical offset like stamps casually pressed onto a page; on hover, a badge "presses" flat (rotates to 0, scales down) and its outline switches to the accent color
+- **Trigger:** interaction-triggered (hover/tap)
+- **Seen in:** headfavour.com — social links ("let's connect")
+- **Status:** active
+- **Image:** none yet
+- **Notes:** a lighter-weight variant of the ink-stamp headline concept reused for an icon row instead of type — only reads clearly as "stamps" because the hero already establishes the stamp language earlier on the same page; wouldn't stand alone as its own concept on a page without that setup.
 
 ---
 

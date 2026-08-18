@@ -23,6 +23,7 @@ Five projects, five different treatments, each applied consistently across every
 - **Bold-plus-soft two-line contrast** — an assertive white line followed immediately by a softer gray qualifying line underneath (Revolut: "Every screen has a job. / None are decorative.").
 - **Per-line color/weight assignment** — each line of a multi-line headline gets its own color (TrashPay: white / brand-accent / gray across three lines).
 - **Letters replaced by icons** — a specific double-letter inside a headline word is swapped for a small animated icon (FlutterBytes: the "tt" in "Flutter").
+- **Ink-stamp badge on one word** — one word per headline gets a rotated, outlined stamp-style badge (border + uppercase tracked type in the accent color, no fill), landing with a scroll-triggered spring overshoot like a stamp hitting paper (headfavour.com: "SHIPPED" / "SHORT" / "CONNECT").
 
 Pick one mechanism early and use it everywhere a headline needs weight on this project. Don't invent a new one per section.
 
