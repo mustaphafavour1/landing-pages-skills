@@ -48,6 +48,15 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Seen in:** Weft (test build) — hero
 - **Status:** active
 
+### Cord Unravel — a wearable that becomes its own cable
+- **Core idea:** the object you're wearing isn't a decoration standing in for the product — it physically *is* the product, and turns back into it on demand
+- **Physical metaphor:** a custom multi-strand SVG rig — N parallel strand-paths sharing one ordered point-set across two named states (a coiled wrist-loop bracelet vs. a straight full-length cable) — with a single progress value (0–1) lerped per-point and redrawn every frame, so the asset visibly reconfigures rather than cross-fading between two pre-rendered images
+- **Trigger:** ambient looping in the hero (0→1→0 with pauses); interaction-triggered (spring-to-step-target) in a 4-step click-through walkthrough; held static per-variant in a catalog picker (paired with a separate crossfade + diagonal shimmer-sweep on swap)
+- **Seen in:** HeadFavour — hero, "How It Unravels" walkthrough, and the finish picker (same rig, three different triggers and narrative jobs on one page)
+- **Status:** active
+- **Image:** none yet
+- **Notes:** built because the brief's product *literally* has a two-state physical story (wearable ⇄ working cable), not invented as a generic transition — only reach for this metaphor when that's true of the product, or it's just a fold/unfold effect with no real referent. Reusing the same rig three times on one page is a deliberate exception to the "never repeat a signature move" rule, justified here because each use has a different trigger and job (atmosphere vs. instruction vs. catalog) and the walkthrough section specifically needs to show the *same* transformation the hero promised — but it's a judgment call, not a precedent to lean on casually. Graded as a Partial against the no-repeat rule in this build's scorecard rather than a clean pass; worth Favour's own read on whether it lands as "one coherent trick" or "the only trick."
+
 ### Full-bleed overlay with floating nav pill
 - **Core idea:** premium and immediately credible, people-first
 - **Physical metaphor:** a full-bleed photo, a rounded floating navbar pill sitting on top of the image, headline overlaid in the lower third in mixed serif/italic accent type, a pill CTA with a small circular icon, one or two floating corner cards surfacing a secondary offer or credential

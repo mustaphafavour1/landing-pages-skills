@@ -284,3 +284,4 @@ The bank is append-only, like the concept gallery:
 - **B2B-109** — Macro Multi-Scale Hardware Bento Matrix · `division-grid, pastel-cards, 3d-geometric-objects, staggered-alignment`
 - **B2B-110** — Technical Cross-Section Dashboard Block · `cross-section-dashboard, floating-metric-tags, smart-ring-specs, data`
 - **B2B-111** — 3D Exploded-View Component Assembly Hero · `exploded-view-assembly, 3d-component-cascade, hardware-blueprint, hero`
+- **B2B-112** — Progressive Path-Morph Transform Rig · `path-morph-rig, dual-state-svg, progress-driven, transformation-story, step-walkthrough-stage`

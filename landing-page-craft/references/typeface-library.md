@@ -28,6 +28,12 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 - **Used in:** Weft (test build) — display
 - **Status:** active
 
+### Fraunces — warm high-contrast display serif
+- **Mood / character:** soft, slightly quirky optical-size serif with high-contrast strokes — reads premium and a little handmade at once, a middle ground between jewelry-elegant and craft/workshop
+- **Pairs well with:** IBM Plex Mono, Manrope
+- **Used in:** HeadFavour — display
+- **Status:** active
+
 ### Bricolage Grotesque — expressive grotesque
 - **Mood / character:** playful but structured; irregular details keep a sans from reading generic
 - **Pairs well with:** Space Mono, Manrope
