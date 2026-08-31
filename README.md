@@ -2,6 +2,8 @@
 
 A Claude Code / Claude Agent skill for building landing pages, marketing sites, portfolio/case-study pages, and event pages with a genuine point of view — not generic template output. This repo is the dedicated home for developing and sharpening that skill over time.
 
+**Looking for everything in one file?** [`landing-page-skills.md`](./landing-page-skills.md) is a consolidated, single-file export of `SKILL.md` plus every file in `references/` (including the full 194-row section bank) — every rule, framework, and reference table in one document, for reading, searching, or handing off without the folder structure. It's a generated snapshot; the folder below is still the version that gets edited.
+
 ## What's here
 
 ```
