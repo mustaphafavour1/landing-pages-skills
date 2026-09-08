@@ -96,10 +96,19 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Core idea:** a claim made real, made official, on the spot — this isn't a promise, it's already stamped and done
 - **Physical metaphor:** a rotated, outline-only rubber-stamp badge (border + uppercase tracked type in the accent color, transparent fill) around one word in a headline, landing with a scroll-triggered spring overshoot — scale and rotation settle like a stamp physically hitting paper, with a soft radial "ink bleed" glow timed to the impact
 - **Trigger:** scroll-triggered reveal (fires on load for hero, on scroll-into-view for later sections)
-- **Seen in:** headfavour.com — hero headline ("SHIPPED"), and reused smaller on every major section title ("SHORT", "CONNECT")
+- **Seen in:** headfavour.com — hero headline ("SHIPPED"), and reused smaller on every major section title ("SHORT", "CONNECT"), first build only
+- **Status:** retired (the person flagged this exact treatment — a rotated box outline around slanted text — as already used on a different one of their own sites, immediately after the first build shipped. Replaced on headfavour.com by "Highlighter-marker sweep on one word" below before the person ever saw it live. Don't reuse this specific form for this person's projects; a genuinely different execution of "official/stamped" could still work if proposed and confirmed first.)
+- **Image:** none yet
+- **Notes:** the underlying idea (a claim made real, on the spot) is still sound and reusable — it was the specific *form* (bordered rotated box) that collided, not the concept. If reused elsewhere, execute it as something other than a bordered rectangle badge.
+
+### Highlighter-marker sweep on one word
+- **Core idea:** a claim made real, made official, on the spot — the same core idea as the retired ink-stamp concept above, executed as a genuinely different physical object
+- **Physical metaphor:** a solid, slightly skewed color block sweeps in behind one headline word (scaleX 0→1 from the left, like a fast confident marker stroke), the word's own text color switching to a dark ink tone so it reads clearly against the bright fill, rather than a bordered badge sitting around the word
+- **Trigger:** scroll-triggered reveal (fires on load for hero, on scroll-into-view for later sections)
+- **Seen in:** headfavour.com — hero headline ("shipped"), reused smaller on every major section title ("short", "connect"), second build
 - **Status:** active
 - **Image:** none yet
-- **Notes:** works because the badge is genuinely shaped like a stamp (rectangular outline, no fill, rotated a few degrees) rather than just colored text — passes the two-second test on its own. Only reuse for a brief with a real "made real / delivered / official" story (shipping, approvals, verification, launches) — it would read as arbitrary decoration on a brief without that angle. Doubles as the project's one required headline mechanism (see `taste-rules.md`).
+- **Notes:** built as a direct replacement for the ink-stamp badge above on the same project, once that form turned out to be already used on the person's other site — a useful example of the same core idea surviving a forced change of physical form. Implementation detail worth knowing before reusing: don't gate the block's presence and the text's legibility on two independently-triggered animations, and don't reach for a negative z-index to layer it behind the text — see the implementation note in `taste-rules.md`.
 
 ---
 
@@ -175,10 +184,10 @@ Mark a concept **retired** once it's shown up on two or three builds — not bec
 - **Core idea:** each link out is its own small, deliberate mark being left, not just an icon in a row
 - **Physical metaphor:** circular outline stamp badges (same ink-stamp visual language as the headline mechanism, applied to a set of icons) scattered with alternating tilt and vertical offset like stamps casually pressed onto a page; on hover, a badge "presses" flat (rotates to 0, scales down) and its outline switches to the accent color
 - **Trigger:** interaction-triggered (hover/tap)
-- **Seen in:** headfavour.com — social links ("let's connect")
-- **Status:** active
+- **Seen in:** headfavour.com — social links ("let's connect"), first build only
+- **Status:** retired (depended entirely on the ink-stamp headline concept above to read as "stamps" at all — once that was retired from the same page, the tilt lost its motivation and was simplified to a plain vertical stagger with no rotation, at which point it's no longer distinctive enough to count as its own signature concept, just a normal circular icon row with a hover state.)
 - **Image:** none yet
-- **Notes:** a lighter-weight variant of the ink-stamp headline concept reused for an icon row instead of type — only reads clearly as "stamps" because the hero already establishes the stamp language earlier on the same page; wouldn't stand alone as its own concept on a page without that setup.
+- **Notes:** worth remembering as a pattern for *if* the ink-stamp badge (or something like it) is reused as a headline mechanism on a future project — the badge treatment can extend cleanly from headline word to icon row within that one page, but only ever as a dependent extension of an established language, not as a standalone concept.
 
 ---
 
