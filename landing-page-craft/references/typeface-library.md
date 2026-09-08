@@ -31,7 +31,13 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 ### Bricolage Grotesque — expressive grotesque
 - **Mood / character:** playful but structured; irregular details keep a sans from reading generic
 - **Pairs well with:** Space Mono, Manrope, IBM Plex Mono
-- **Used in:** Flare (test build) — display; headfavour.com — display
+- **Used in:** Flare (test build) — display; headfavour.com — display on its first build, swapped out for Alan Sans on request before launch (no issue with the typeface itself, just a direct preference)
+- **Status:** active
+
+### Alan Sans — geometric grotesque
+- **Mood / character:** clean, confident, rounded-terminal geometric sans — reads modern and friendly without tipping into soft/rounded-corporate
+- **Pairs well with:** IBM Plex Mono, Manrope
+- **Used in:** headfavour.com — display (replaced Bricolage Grotesque there on direct request)
 - **Status:** active
 
 ---
@@ -40,7 +46,7 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 
 ### IBM Plex Mono — technical monospace
 - **Mood / character:** precise, systems-oriented, good for data labels and small caps
-- **Pairs well with:** Instrument Serif, Karla, Bricolage Grotesque, Manrope
+- **Pairs well with:** Instrument Serif, Karla, Bricolage Grotesque, Manrope, Alan Sans
 - **Used in:** Weft (test build) — data labels; headfavour.com — labels, eyebrows, status tags
 - **Status:** active
 
@@ -62,7 +68,7 @@ The agent may also propose a genuinely new typeface not yet in this list — tha
 
 ### Manrope — geometric grotesque
 - **Mood / character:** clean, contemporary, slightly cooler than Karla
-- **Pairs well with:** Bricolage Grotesque, Space Mono, IBM Plex Mono
+- **Pairs well with:** Bricolage Grotesque, Space Mono, IBM Plex Mono, Alan Sans
 - **Used in:** Flare (test build) — body; headfavour.com — body
 - **Status:** active
 
